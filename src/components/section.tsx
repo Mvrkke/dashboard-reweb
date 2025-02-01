@@ -105,7 +105,10 @@ export function Section() {
                 size={16}
                 className="absolute top-1/2 -translate-y-1/2 left-3 text-muted-foreground"
               />
-              <Input placeholder="Search" className="w-64 pl-8 w-full bg-card" />
+              <Input 
+                placeholder="Search" 
+                className="pl-8 w-full bg-card"
+              />
             </div>
             <Select>
               <SelectTrigger className="w-40 bg-card flex-1 md:flex-none">
