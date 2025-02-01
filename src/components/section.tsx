@@ -1,4 +1,5 @@
 import {
+  Badge as BadgeIcon,
   LayoutDashboard,
   BarChart,
   Lightbulb,
@@ -34,7 +35,7 @@ export function Section() {
     <div className="flex w-full min-h-screen">
       <aside className="w-64 border-r bg-background p-6 flex-col hidden lg:flex">
         <div className="mb-8 flex items-center gap-2">
-          <Badge size={20} className="text-primary fill-primary" />
+          <BadgeIcon size={20} className="text-primary fill-primary" />
           <h1 className="font-heading font-bold text-lg">Dashy</h1>
         </div>
         <nav className="space-y-2">
