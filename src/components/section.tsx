@@ -1,5 +1,4 @@
 import {
-  Badge,
   LayoutDashboard,
   BarChart,
   Lightbulb,
